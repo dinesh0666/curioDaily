@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Lightbulb icon -->
+  <g transform="translate(128, 128)">
+    <path d="M128 64C128 28.65 99.35 0 64 0S0 28.65 0 64c0 23.7 12.9 44.4 32 55.4V144c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-24.6c19.1-11 32-31.7 32-55.4zM48 176h32v16H48v-16zm0 32h32v16H48v-16z" fill="white"/>
+    
+    <!-- Sparkle effects -->
+    <circle cx="32" cy="32" r="4" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="96" cy="48" r="3" fill="#F59E0B" opacity="0.6"/>
+    <circle cx="112" cy="96" r="2" fill="#F59E0B" opacity="0.7"/>
+    <circle cx="16" cy="80" r="3" fill="#F59E0B" opacity="0.5"/>
+    
+    <!-- Question mark for curiosity -->
+    <path d="M64 96c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0-48c-13.3 0-24 10.7-24 24 0 4.4 3.6 8 8 8s8-3.6 8-8c0-4.4 3.6-8 8-8s8 3.6 8 8c0 4.4-3.6 8-8 8-4.4 0-8 3.6-8 8v8c0 4.4 3.6 8 8 8s8-3.6 8-8v-1.3c9.6-5.5 16-15.9 16-27.7 0-17.7-14.3-32-32-32z" fill="white" opacity="0.3" transform="translate(16, 32) scale(0.5)"/>
+  </g>
+</svg>
