@@ -2,6 +2,10 @@
 
 A personalized curiosity and habit-building app that converts users' interests into daily micro-challenges to replace mindless scrolling with meaningful activities.
 
+## 🌐 Live Demo
+
+Visit the live app: [https://dinesh0666.github.io/curioDaily/](https://dinesh0666.github.io/curioDaily/)
+
 ## ✨ Features
 
 - **Personalized Daily Challenges**: Get custom micro-challenges based on your interests

@@ -44,7 +44,8 @@ export const getSmartChallenge = (options: SmartChallengeOptions): Challenge => 
     if (difficultyFiltered.length === 0) {
       difficultyFiltered = availableChallenges;
     }
-  } else if (difficultyPreference !== 'adaptive') {
+  } else {
+    // For specific difficulty preferences (not adaptive)
     const filtered = availableChallenges.filter(
       challenge => challenge.difficulty === difficultyPreference
     );

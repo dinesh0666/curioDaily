@@ -37,7 +37,11 @@ export const storageUtils = {
       totalChallengesCompleted: 0,
       totalChallengesSkipped: 0,
       completedChallenges: [],
-      lastChallengeDate: ''
+      lastChallengeDate: '',
+      completedChallengeIds: [],
+      difficultyPreference: 'adaptive' as const,
+      streakMilestones: [],
+      weeklyStats: []
     };
   },
 
